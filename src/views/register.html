@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img class="logo" src="/images/logo-mercado-liebre.svg" alt="logo de mercado liebre">
+            <p><input type="search" , placeholder="buscar productos, marcas"></p>
+            <i class="fas fa-search"></i>
+            <br>
+            <h2 class="copy-header">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+        </div>
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li> <a href="#"> Ofertas</a></li>
+                <li> <a href="#"> Tiendas oficiales</a></li>
+                <li> <a href="#"> Vender</a></li>
+                <li> <a href="#"> Ayuda</a></li>
+            </ul>
+            <ul class="right-navbar">
+                <li> <a href="/register.html"> Crea tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li> <a href="/login.html"> Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li> <a href="#"> Mis compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+        <div>
+            <a class="burger-menu" href="#">
+                <i class="fas fa-bars"></i>
+            </a>
+        </div>
+        <br>
+    </header>
+
+    <form action="/home" method="post" class="register-form">
+        <div class="control-forumulario">
+            <label>Nombre y apellido:</label>
+            <input type="text" name="nombre" class="control">
+        </div>
+        <div class="control-forumulario">
+            <label>Nombre de usuari@:</label>
+            <input type="text" name="usuario" class="control">
+        </div>
+        <div class="control-forumulario">
+            <label>Fecha de nacimiento:</label>
+            <input type="date" name="fechaDeNacimiento" class="control">
+        </div>
+
+        <div class="control-forumulario">
+            <label>Domicilio:</label>
+            <input type="text" name="domicilio" class="control">
+        </div>
+        <div class="control-forumulario">
+            <label>Perfil de usuario:</label>
+            <select name="perfil" class="control">
+                <option value="comprador">Compra</option>
+                <option value="vendedor">Venta</option>
+            </select>
+        </div>
+
+        <div class="control-forumulario">
+            <label>Categorías de interés:</label>
+            <in">
+                <input type="checkbox">
+                <input name="moda" value="Moda">
+                <input name="hogar" value="Hogar">
+                <input type="checkbox" name="jugueteria" value="juguetería">
+                <input type="checkbox" name="vidaSana" value="Vida Sana">
+            </select>
+        </div>
+        <div class="control-forumulario">
+            <label>Foto de Usuario:</label>
+            <input type="file" name="foto" accept=".jpg" class="control"></textarea>
+        </div>
+        <div class="control-forumulario">
+            <label>Constraseña:</label>
+            <input type="password" name="contraseña" class="control" >
+        </div>
+        <div class="control-forumulario">
+            <label>Confirmar contraseña:</label>
+            <input type="password" name="contraseña" class="control" >
+        </div>
+        <button type="reset" class="boton-formulario">Borrar</button>
+        <button type="submit" class="boton-formulario">Enviar</button>
+    </form>
+</body>
+</html>
