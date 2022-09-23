@@ -17,6 +17,8 @@ body {
     text-align: center;
     position: fixed;
     top: 0;
+    margin: auto;
+    padding: auto;
     z-index: 100;
 
 }
@@ -38,6 +40,7 @@ main {
     margin: 0 auto;
     background-color: #ebebeb;
     text-align: center;
+    margin-top: 300px ;
 }
 
 .section-artic {
@@ -153,6 +156,7 @@ main {
 .banner {
     width: 100%;
     margin-top: 290px;
+    display: none;
 }
 
 .img-articulo {
@@ -210,14 +214,29 @@ footer section i {
     border-radius: 5px;
 }
 
+.interests{
+margin: 15px;
+}
+
+.interes {
+display: flex;
+align-items: center;
+
+}
+
 @media(min-width:361px) {
 
     .banner {
         margin-top: 280px;
+        display: block;
     }
 
     .descripcion {
         display: block;
+    }
+
+    main {
+        margin-top: 0;
     }
 
     .main-navbar {
@@ -252,7 +271,7 @@ footer section i {
     }
 
     .register-form {
-        margin-top: 300px;
+        margin-top: 275px;
 
     }
 
@@ -301,7 +320,7 @@ footer section i {
     }
 
     .register-form {
-        margin-top: 150px;
+        margin-top: 170px;
 
     }
 }
