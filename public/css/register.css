@@ -1,0 +1,52 @@
+.register-form {
+    padding: 20px 15px;
+    margin-top: 300px;
+
+}
+
+.control-forumulario {
+    margin-bottom: 15px;
+}
+
+.control-forumulario label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control {
+    width: 90%;
+    padding: 8px;
+}
+
+.boton-formulario {
+    background-color: #39b54a;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.interests{
+margin: 15px;
+}
+
+.interes {
+display: flex;
+align-items: center;
+
+}
+
+@media(min-width:361px){
+    .register-form {
+        margin-top: 275px;
+
+    }
+}
+@media(min-width:769px) {
+    .register-form {
+        margin-top: 170px;
+
+    }
+}
+@media(min-width: 1200px) {}
