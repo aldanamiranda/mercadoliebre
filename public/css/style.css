@@ -24,7 +24,10 @@ body {
 .main-header-top-bar {
     align-items: center;
 }
-
+.copy-header {
+    text-align: center;
+    padding: 15px;
+}
 .logo {
     width: 200px;
     margin: 15px
@@ -75,10 +78,7 @@ main {
 
 }
 
-.copy-header {
-    text-align: center;
-    padding: 15px;
-}
+
 
 
 .titular {
@@ -127,7 +127,6 @@ main {
 .main-navbar a {
     color: #222222;
     text-decoration: none;
-    display: inline-block;
     padding: 5px 0;
     font-size: 17px;
 }
