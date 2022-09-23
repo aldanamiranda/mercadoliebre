@@ -37,6 +37,10 @@ align-items: center;
 
 }
 
+.interes input:invalid{
+    background-color: red;
+}
+
 @media(min-width:361px){
     .register-form {
         margin-top: 275px;
