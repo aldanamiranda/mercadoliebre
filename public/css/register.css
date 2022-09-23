@@ -37,8 +37,8 @@ align-items: center;
 
 }
 
-.interes input:invalid{
-    background-color: red;
+input:invalid{
+    background-color: pink;
 }
 
 @media(min-width:361px){
