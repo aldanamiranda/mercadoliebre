@@ -112,7 +112,6 @@ main {
 
 .descripcion {
     font-size: 16px;
-    display: none;
     color: #666;
 }
 
@@ -174,7 +173,13 @@ footer section i {
     color: #03264C;
     font-size: 2em;
     margin-bottom: 10px;
+    transition: color 1s, font-size 1s;
 
+}
+
+footer section i:hover{
+    color: blue;
+    font-size: 3em;
 }
 
 .subtitulofooter {
@@ -322,6 +327,23 @@ footer section i {
 
     .articulo {
         width: 22%;
+    }
+
+    footer {
+        display: flex;
+    }
+    .sec-footer{
+        display: inline;
+    }
+
+    .sec-copyrigth{
+        position: relative;
+    }
+    .copyright{
+        display: block;
+        width: 100%;
+        position:;
+
     }
 
 }

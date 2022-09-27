@@ -22,6 +22,8 @@ app.get ('/login', (req,res)=>{
 })
 
 app.post('/login', (req,res)=>{
+    console.log(req.body);
+    
     res.redirect('/');
 })
 app.post('/register', (req,res)=>{
