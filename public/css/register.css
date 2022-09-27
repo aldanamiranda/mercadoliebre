@@ -5,7 +5,7 @@
 }
 
 .control-forumulario {
-    margin-bottom: 15px;
+    margin-bottom: 100px;
 }
 
 .control-forumulario label {
@@ -43,14 +43,19 @@ input:invalid{
 
 @media(min-width:361px){
     .register-form {
-        margin-top: 275px;
+        margin-top: 1000px;
+        display: block;
 
     }
 }
 @media(min-width:769px) {
     .register-form {
-        margin-top: 170px;
+        margin-top: 350px;
 
     }
 }
-@media(min-width: 1200px) {}
+@media(min-width: 1200px) {
+    .register-form {
+        margin-top: 350px;
+    }
+}
