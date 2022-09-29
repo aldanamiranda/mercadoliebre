@@ -70,7 +70,15 @@ main {
     right: 20px;
     top: -15px;
     align-items: flex-end;
+    transition: 1s;
 }
+
+main article div:hover i{
+    transform: rotate(-90deg);
+
+} 
+
+
 
 .producto {
     text-align: left;
@@ -205,9 +213,7 @@ footer section i:hover{
         display: block;
     }
 
-    main section article:hover .descripcion{
-        display: block;
-        }
+
 
     main {
         margin-top: 0;
@@ -217,9 +223,12 @@ footer section i:hover{
         display: none
     }
 
+ main section div article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
 
     .articulo {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 40%;
 
 
@@ -259,10 +268,6 @@ footer section i:hover{
 
     .banner {
         margin-top: 180px;
-    }
-
-    .descripcion {
-        display: block;
     }
 
     .main-header-top-bar {
@@ -333,6 +338,9 @@ footer section i:hover{
 
     .articulo {
         width: 22%;
+    }
+    .descripcion {
+        display: block
     }
 
     footer {
