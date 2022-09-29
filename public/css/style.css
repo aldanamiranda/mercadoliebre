@@ -113,7 +113,13 @@ main {
 .descripcion {
     font-size: 16px;
     color: #666;
+    display: none;
+
 }
+
+main section article:hover .descripcion{
+    display: block;
+    }
 
 .main-navbar {
     display: none;
@@ -342,8 +348,6 @@ footer section i:hover{
     .copyright{
         display: block;
         width: 100%;
-        position:;
-
     }
 
 }

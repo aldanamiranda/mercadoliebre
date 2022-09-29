@@ -3,12 +3,22 @@ const path= require('path');
 
 const app = express();
 
+//const mainRouter = require('./routers/mainRouter')
+//app.use('/', mainRouter )
+
+
+
 app.use(express.static(path.resolve(__dirname, 'public')));
 
 app.listen(process.env.PORT || 3000, ()=>{
     console.log ('servidor corriendo en puerto 3000')
 })
 app.use(express.urlencoded({ extended: false }))
+
+
+
+
+
 
 app.get ('/', (req,res)=>{
     res.sendFile(path.resolve(__dirname, 'src/views/home.html'))
